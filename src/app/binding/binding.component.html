@@ -1,0 +1,9 @@
+<mat-slide-toggle>Toggle me!</mat-slide-toggle>
+<img [src]="userAvatar" alt="user-profile" />
+<ul>
+  <li>Name : {{ name }}</li>
+  <li>Age : {{ age }}</li>
+</ul>
+
+<input class="form-control" [value]="name" />
+<button class="btn btn-primary" (click)="alertUsername()" [disabled]="isBtnDisabled">Click me</button>

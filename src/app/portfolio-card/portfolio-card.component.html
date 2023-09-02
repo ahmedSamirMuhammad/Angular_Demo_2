@@ -1,0 +1,10 @@
+<div class="card">
+  <div
+    class="card-body fs-4 text-white"
+    [ngClass]="{ 'bg-custom': myCard.isGray, 'bg-dark': !myCard.isGray }"
+  >
+    <p class="card-text d-flex align-items-center justify-content-center h-200">
+      {{ myCard.name }}
+    </p>
+  </div>
+</div>
